@@ -4,7 +4,7 @@ Official implementation of "Spatiality-guided Transformer for 3D Dense Captionin
 
 ![teaser](docs/teaser.jpg)
 
-**Code to be released shortly! Stay tuned!**
+**Full training and evaluation code will be released shortly! Stay tuned!**
 
 ## Citation
 If you find our work helpful in your research, please kindly cite our paper via:
