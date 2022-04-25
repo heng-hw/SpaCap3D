@@ -1,6 +1,6 @@
 # Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds
 
-Official implementation of "Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds", IJCAI 2022. ([[arXiv]](https://arxiv.org/abs/todo) [[project]](https://spacap3d.github.io/))
+Official implementation of "Spatiality-guided Transformer for 3D Dense Captioning on Point Clouds", IJCAI 2022. ([[arXiv]](https://arxiv.org/abs/2204.10688) [[project]](https://spacap3d.github.io/))
 
 ![teaser](docs/teaser.jpg)
 
