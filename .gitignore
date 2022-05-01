@@ -1,0 +1,33 @@
+# dataset
+data/scanrefer*
+data/ScanRefer*
+data/glove*
+data/scannet/scannet_data
+data/scannet/scans
+data/scannet/scannetv2-labels.combined.tsv
+data/scannet/scans_test
+data/scannet/tasks
+data/scannetv2_enet.pth
+data/Scan2CAD_dataset/
+data/votenet_estimated_viewpoint*
+data/nr3d*
+data/download-scannet*
+
+# outputs
+outputs/
+
+# pointnet2
+lib/pointnet2/build/
+lib/pointnet2/dist/
+lib/pointnet2/pointnet2.egg-info/
+
+# Mac
+.DS_Store
+data/.DS_Store
+docs/.DS_Store
+
+# codebase test
+codebase_check/
+
+# IDE
+.idea/
