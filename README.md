@@ -11,7 +11,7 @@ updates:
 
 ### ScanRefer
 
-|Method | input | CIDEr@0.5IoU | BLEU-4@0.5IoU | METEOR@0.5IoU | ROUGE@0.5IoU | mAP@0.5IoU | Model | Eval. Cmd. |
+|Method | input | CIDEr<!-- -->@<!-- -->0.5IoU | BLEU-4<!-- -->@<!-- -->0.5IoU | METEOR<!-- -->@<!-- -->0.5IoU | ROUGE<!-- -->@<!-- -->0.5IoU | mAP<!-- -->@<!-- -->0.5IoU | Model | Eval. Cmd. |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Scan2Cap](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Scan2Cap_Context-Aware_Dense_Captioning_in_RGB-D_Scans_CVPR_2021_paper.html)| xyz| 32.94 | 20.63 | 21.10 | 41.58 | 27.45 | - | - | 
 |[Scan2Cap](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Scan2Cap_Context-Aware_Dense_Captioning_in_RGB-D_Scans_CVPR_2021_paper.html)| xyz+rgb+normal| 35.20 | 22.36 | 21.44 | 43.57 | 29.13 | - | - |
@@ -23,7 +23,7 @@ updates:
 
 ### Nr3D/ReferIt3D
 
-|Method | input | CIDEr@0.5IoU | BLEU-4@0.5IoU | METEOR@0.5IoU | ROUGE@0.5IoU | mAP@0.5 | Model | Eval. Cmd. |
+|Method | input | CIDEr<!-- -->@<!-- -->0.5IoU | BLEU-4<!-- -->@<!-- -->0.5IoU | METEOR<!-- -->@<!-- -->0.5IoU | ROUGE<!-- -->@<!-- -->0.5IoU | mAP<!-- -->@<!-- -->0.5IoU | Model | Eval. Cmd. |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[Scan2Cap](https://openaccess.thecvf.com/content/CVPR2021/html/Chen_Scan2Cap_Context-Aware_Dense_Captioning_in_RGB-D_Scans_CVPR_2021_paper.html)| xyz+multiview+normal| 24.10 | 15.01 | 21.01 | 47.95 | 32.21 | - | - |
 | Ours<sub>base</sub>| xyz |31.06 (28.55*) | 17.94 | 22.03 | 49.63 | 30.65 |[model](https://drive.google.com/drive/folders/1pj4NGf4tPa4YSc923kMa-49hbjV_m8MI?usp=sharing) | `python scripts/eval.py --eval_tag 'muleval'  --mul_eval --late_guide --no_learnt_src_pos --folder 'SPACAP_BASE_NR3D'  --dataset ReferIt3D`|
