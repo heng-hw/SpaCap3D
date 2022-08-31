@@ -5,7 +5,10 @@ Official implementation of "Spatiality-guided Transformer for 3D Dense Captionin
 ![teaser](docs/teaser.jpg)
 
 updates:
+* August 31, 2022: we are ranked the 2nd on the [Scan2Cap](https://kaldir.vc.in.tum.de/scanrefer_benchmark/benchmark_captioning) benchmark!
 * May 01, 2022: codes are released!
+
+![benchmark](docs/benchmark.jpg)
 
 ## Main Results
 
